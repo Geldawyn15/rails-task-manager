@@ -1,0 +1,19 @@
+
+  <div class="flex">
+    <h1><%= @task.title %></h1>
+  </div>
+  <div class="flex flex_right">
+    <button class="edit_button">
+      <%= link_to "Edit this task", edit_task_path, { :class => "edit_link"} %>
+    </button>
+  </div>
+
+  <div class="center">
+    <p ><%= @task.details %></p>
+    <%= link_to "Back to list", tasks_path %>
+  </div>
+
+
+
+
+

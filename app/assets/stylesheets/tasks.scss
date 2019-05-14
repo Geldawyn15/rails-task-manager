@@ -1,0 +1,45 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$grey: #827f7f;
+
+
+div {
+  // display: inline-block;
+  // text-align: center;
+   width: 55%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex_right {
+  justify-content: flex-end !important;
+}
+
+.edit_link {
+  text-decoration: none;
+  color: black;
+}
+
+.edit_button {
+  height: 32px;
+  border-radius: 5px;
+  border: 1px solid $grey;
+  transition: background-color .3s;
+}
+
+.edit_button:hover {
+  background-color: $grey;
+}
+
+.center {
+  text-align: center;
+}
+
+
+
+
